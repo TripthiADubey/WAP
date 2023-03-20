@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ahana Book House</title>
+		 <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<style>
+		h1{ 
+				margin:10px;
+				padding:10px;
+			}
+		mark{
+					color:red;
+					text-font:sans serif;
+		}
+		blockquote{
+					text-align:right;
+					margin:5px;
+		}
+		button{
+					margin-top:10px;
+		}
+		.collapse{
+					color:green;
+					margin:10px;
+					padding:10px;
+					
+		}
+		p.breif{
+				text-align:right;
+		}
+		</style>
+	</head>
+	<body>
+	<div class="jumbotron text-center">
+	<h1 style="color:blue;background-color:skyblue;text-align:center">Hello Readers..!!<br>Welcome Onboard</h1>
+	</div>
+	<div class="collapse navbar-collapse" id="navbar">
+		<ul class="nav navbar-nav">
+			<li><a href="#">home</a></li>
+			<li><a href="#">admissions</a></li>
+		</ul>
+		
+		<input type="text" placeholder="search..." style="margin-top:8px; color:black">
+			<button type="button" value="search" style="color:black;">Search</button>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#"><span class="glyphicon glyphicon-user"></span>Profile</a></li>
+				<li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span>Cart</a></li>
+			</ul>
+	</div>
+	<div class="container">
+		<div class="rows">
+			<div><h3>ABOUT <mark><abbr title="Ahana Book House">A.B.H</abbr></mark></h3>
+			<p class="breif">A Book is the best gift which you can open again and again and again....</p>
+				<blockquote><footer style="color:blue;"><b><i>A.B.H</i></b></footer></blockquote>
+			<p>We, at A.B.H, are passionate to provide the right books to the readers who live through the characters and make the character and book immortale<p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+	<h2 class="jumbotron text-center">Book Availability Information</h2>
+	<pre class="pre-scrollable">
+		<div class="table responsive">
+		<table class="table table-hover">
+			<thead>
+				<tr>
+					<td class="text text-black bg-primary">BOOK ID</td>
+					<td class="bg-primary">Book Name</td>
+					<td class="bg-primary">Author</td>
+					<td class="bg-primary">Availability</td>
+					<td class="bg-primary">Cover</td>
+					<td class="bg-primary">Order</td>
+				</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<td>ABC543</td>
+					<td>Harry Potter</td>
+					<td>J.K.Rowling</td>
+					<td class="text text-success">Available</td>
+					<td><a href="/home/tripthi/Documents/WAP/LAB/Wb images/harry_potter.jpeg" target="blank"><img src="/home/tripthi/Documents/WAP/LAB/Wb images/harry_potter.jpeg" class="img-thumbnail" width="50px" height="50px"></td>
+					<td><button class="btn btn-success btn-sm">click here to order</td>
+				</tr>
+				<tr>
+					<td>HDE927</td>
+					<td>A Night At A Call-Centre</td>
+					<td>Chetan Bhagat</td>
+					<td class="text text-danger">Unavailable</td>
+					<td><a href="/home/tripthi/Documents/WAP/LAB/Wb images/call-center.jpeg" target="blank"><img src="/home/tripthi/Documents/WAP/LAB/Wb images/call-center.jpeg" class="img-thumbnail" width="50px" height="50px"></td>
+					<td><button class="btn btn-success btn-sm disabled" >click here to order</td>
+				</tr>
+				<tr>
+					<td>7643ER</td>
+					<td>The Fault In Our Stars</td>
+					<td>John green</td>
+					<td class="text text-success">Available</td>
+					<td><a href="/home/tripthi/Documents/WAP/LAB/Wb images/fault_in_stars.jpg" target="blank"><img src="/home/tripthi/Documents/WAP/LAB/Wb images/fault_in_stars.jpg" class="img-thumbnail" width="50px" height="50px"></td>
+					<td><button class="btn btn-success btn-sm">click here to order</td>
+				</tr>
+			</tbody>
+		</table>
+		</div>
+		
+		</pre>
+		<p>Use<kbd>Ctrl+P</kbd>To print</p>
+	</body>
+	</html>
